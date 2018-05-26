@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import DisplayData from './DisplayData';
-import '../../App.css'
+import ToolTips from './ToolTips';
 
 class Search extends Component {
   constructor(props){
@@ -64,6 +64,7 @@ class Search extends Component {
           <button type='submit' value='submit' >Search</button>
         </form>
         {result}
+        <ToolTips />
       </div>
     );
   }
