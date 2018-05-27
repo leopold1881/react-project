@@ -7,7 +7,7 @@ const Jumbotrons = (props) => {
     <div>
       <Jumbotron>
         <h1 className="display-3">Welcome to my little ReactJS world!</h1>
-        <p className="lead">Here you can find a simple react game, weather app and search bar.</p>
+        <p className="lead">Here you can find a simple react game, data query and search bar.</p>
         <hr className="my-2" />
         <p className="lead">
         <Link to='/RockPaperScissors'>
