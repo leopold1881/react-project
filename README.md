@@ -28,7 +28,7 @@ constructor(props) {
 ```
 
 ## Search Data
-An input bar component then can search data from data pulled from an [api](https://damp-fortress-54104.herokuapp.com/search?q=reactjs&format=json) by a get request.
+An input bar component that can search data from data pulled from an [api](https://damp-fortress-54104.herokuapp.com/search?q=reactjs&format=json) by a get request.
 
 ```
 handleSubmit(event) {
